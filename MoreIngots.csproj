@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19ECE499-B699-4566-98EA-9CE920A3C142}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MoreIngots</RootNamespace>
+    <AssemblyName>MoreIngots</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buildable\PackedLocker.cs" />
+    <Compile Include="Buildable\StackedLocker.cs" />
+    <Compile Include="Buildable\UnpackedLocker.cs" />
+    <Compile Include="Buildable\UnStackedLocker.cs" />
+    <Compile Include="craftable\Compress Chip.cs" />
+    <Compile Include="craftable\DeCompress Chip.cs" />
+    <Compile Include="craftable\Qpatch.cs" />
+    <Compile Include="ImageUtils.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="IsExternalInit.cs" />
+    <Compile Include="PackedLockerHandler\packed.cs" />
+    <Compile Include="PackedLockerHandler\PackedLockerHandler.cs" />
+    <Compile Include="PackedLockerHandler\Stacked.cs" />
+    <Compile Include="PackedLockerHandler\Unpacked.cs" />
+    <Compile Include="PackedLockerHandler\Unstacked.cs" />
+    <Compile Include="Packed\Packed BloodOil.cs" />
+    <Compile Include="Packed\Packed Big Filtered Water.cs" />
+    <Compile Include="Packed\Packed Gaspod.cs" />
+    <Compile Include="Packed\Packed DisWaterfromGallon.cs" />
+    <Compile Include="Packed\Packed Gel Sack.cs" />
+    <Compile Include="Packed\Packed Deep Mushroom.cs" />
+    <Compile Include="Packed\Packed CreepVine Piece.cs" />
+    <Compile Include="Packed\Packed CreepVine Seed Cluster.cs" />
+    <Compile Include="Packed\Packed Plasteel Ingot.cs" />
+    <Compile Include="Packed\Packed TableCoral.cs" />
+    <Compile Include="Packed\Packed CoralChunk.cs" />
+    <Compile Include="Packed\Packed Acid Mushroom.cs" />
+    <Compile Include="Packed\Packed Aerogel Sheet.cs" />
+    <Compile Include="Packed\Packed Stalker Tooth Ingot.cs" />
+    <Compile Include="Packed\Packed Enameled Glass Ingot.cs" />
+    <Compile Include="Packed\Packed Glass Ingot.cs" />
+    <Compile Include="Packed\Packed Silicone Ingot.cs" />
+    <Compile Include="Packed\Packed Gallon Water.cs" />
+    <Compile Include="Packed\Packed Benzene.cs" />
+    <Compile Include="Packed\Packed Acid.cs" />
+    <Compile Include="Packed\Packed Polyaniline.cs" />
+    <Compile Include="Packed\Packed Lubricant.cs" />
+    <Compile Include="Packed\Packed Bleach.cs" />
+    <Compile Include="Packed\Packed Armidfiber Ingot.cs" />
+    <Compile Include="Packed\Packed Advwirekit.cs" />
+    <Compile Include="Packed\Packed Wirekit.cs" />
+    <Compile Include="Packed\Packed Copperwire.cs" />
+    <Compile Include="Packed\Packed ComputerChip.cs" />
+    <Compile Include="Packed\Packed Crashpowder Ingot.cs" />
+    <Compile Include="Packed\Packed Sulphur Ingot.cs" />
+    <Compile Include="Packed\Packed Salt Ingot.cs" />
+    <Compile Include="Packed\Packed Quartz Ingot.cs" />
+    <Compile Include="Packed\Packed Fibermesh Ingot.cs" />
+    <Compile Include="Packed\Packed Ion Ingot.cs" />
+    <Compile Include="Packed\Packed Uraninite Ingot.cs" />
+    <Compile Include="Packed\Packed Ruby Ingot.cs" />
+    <Compile Include="Packed\Packed Kyanite Ingot.cs" />
+    <Compile Include="Packed\Packed Nickel Ingot.cs" />
+    <Compile Include="Packed\Packed Magnetite Ingot.cs" />
+    <Compile Include="Packed\Packed Silver Ingot.cs" />
+    <Compile Include="Packed\Packed Lead Ingot.cs" />
+    <Compile Include="Packed\Packed Copper Ingot.cs" />
+    <Compile Include="Packed\Packed Lithium Ingot.cs" />
+    <Compile Include="Packed\Packed Diamond Ingot.cs" />
+    <Compile Include="Packed\Packed Gold Ingot.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stacked\Stacked BloodOil.cs" />
+    <Compile Include="Stacked\Stacked Big Filtered water.cs" />
+    <Compile Include="Stacked\Stacked Plasteel Ingot.cs" />
+    <Compile Include="Stacked\Stacked Titanium Ingot.cs" />
+    <Compile Include="Stacked\Stacked GasPod.cs" />
+    <Compile Include="Stacked\Stacked GallonDisWater.cs" />
+    <Compile Include="Stacked\Stacked Gel Sack.cs" />
+    <Compile Include="Stacked\Stacked Deep Mushroom.cs" />
+    <Compile Include="Stacked\Stacked CreepVine Seed Cluster.cs" />
+    <Compile Include="Stacked\Stacked CreepVinePiece.cs" />
+    <Compile Include="Stacked\Stacked TableCoral.cs" />
+    <Compile Include="Stacked\Stacked CoralChunk.cs" />
+    <Compile Include="Stacked\Stacked Acid Mushroom.cs" />
+    <Compile Include="Stacked\Stacked Stalker Tooth Ingot.cs" />
+    <Compile Include="Stacked\Stacked Silicone.cs" />
+    <Compile Include="Stacked\Stacked Enameled Glass Ingot.cs" />
+    <Compile Include="Stacked\Stacked Glass Ingot.cs" />
+    <Compile Include="Stacked\Stacked Fibermesh.cs" />
+    <Compile Include="Stacked\Stacked Armidfiber.cs" />
+    <Compile Include="Stacked\Stacked Aerosheet.cs" />
+    <Compile Include="Stacked\Stacked Gallon Water Barrel.cs" />
+    <Compile Include="Stacked\Stacked Benzene Barrel.cs" />
+    <Compile Include="Stacked\Stacked Acid Barrel.cs" />
+    <Compile Include="Stacked\Stacked Polyaniline Barrel.cs" />
+    <Compile Include="Stacked\Stacked Lubricant Barrel.cs" />
+    <Compile Include="Stacked\Stacked Bleach Barrel.cs" />
+    <Compile Include="Stacked\Stacked Advwirekit.cs" />
+    <Compile Include="Stacked\Stacked Wirekit.cs" />
+    <Compile Include="Stacked\Stacked Computerchips.cs" />
+    <Compile Include="Stacked\Stacked Copperwire.cs" />
+    <Compile Include="Stacked\Stacked Crashpowder Ingot.cs" />
+    <Compile Include="Stacked\Stacked Sulphur Ingot.cs" />
+    <Compile Include="Stacked\Stacked Salt Ingot.cs" />
+    <Compile Include="Stacked\Stacked Quartz Ingot.cs" />
+    <Compile Include="Stacked\Stacked Ion Ingot.cs" />
+    <Compile Include="Stacked\Stacked Uraninite Ingot.cs" />
+    <Compile Include="Stacked\Stacked Ruby Ingot.cs" />
+    <Compile Include="Stacked\Stacked Kyanite Ingot.cs" />
+    <Compile Include="Stacked\Stacked Nickel Ingot.cs" />
+    <Compile Include="Stacked\Stacked Magnetite Ingot.cs" />
+    <Compile Include="Stacked\Stacked Silver Ingot.cs" />
+    <Compile Include="Stacked\Stacked Lead Ingot.cs" />
+    <Compile Include="Stacked\Stacked Copper Ingot.cs" />
+    <Compile Include="Stacked\Stacked Lithium Ingot.cs" />
+    <Compile Include="Stacked\Stacked Diamond Ingot.cs" />
+    <Compile Include="Stacked\Stacked Gold Ingot.cs" />
+    <Compile Include="Unpacked\Reclamed Plasteel Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked BloodOil.cs" />
+    <Compile Include="Unpacked\Unpacked Big Filtered Water.cs" />
+    <Compile Include="Unpacked\Unpacked Plasteel Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Titanium Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked GasPod.cs" />
+    <Compile Include="Unpacked\Unpacked Jelly Mushroom.cs" />
+    <Compile Include="Unpacked\Unpacked Deep Mushroom.cs" />
+    <Compile Include="Unpacked\Unpacked CreepVine Seed Cluster.cs" />
+    <Compile Include="Unpacked\Unpacked CreepVinePiece.cs" />
+    <Compile Include="Unpacked\Unpacked TableCoral.cs" />
+    <Compile Include="Unpacked\Unpacked CoralChunk.cs" />
+    <Compile Include="Unpacked\Unpacked Acid Mushroom.cs" />
+    <Compile Include="Unpacked\Unpacked Stalker Tooth Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Silicone.cs" />
+    <Compile Include="Unpacked\Unpacked Enameled Glass Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Glass Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Fibermesh.cs" />
+    <Compile Include="Unpacked\Unpacked Armidfiber .cs" />
+    <Compile Include="Unpacked\Unpacked Aerosheet.cs" />
+    <Compile Include="Unpacked\Unpacked GallonDisWater.cs" />
+    <Compile Include="Unpacked\Unpacked WaterFrom5Gallon.cs" />
+    <Compile Include="Unpacked\Unpacked Benzene.cs" />
+    <Compile Include="Unpacked\Unpacked Acid.cs" />
+    <Compile Include="Unpacked\Unpacked Polyaniline.cs" />
+    <Compile Include="Unpacked\Unpacked Lubricant.cs" />
+    <Compile Include="Unpacked\Unpacked Bleach.cs" />
+    <Compile Include="Unpacked\Unpacked Advwirekit.cs" />
+    <Compile Include="Unpacked\Unpacked Wirekit.cs" />
+    <Compile Include="Unpacked\Unpacked Computerchips.cs" />
+    <Compile Include="Unpacked\Unpacked Copperwire.cs" />
+    <Compile Include="Unpacked\Unpacked Ion Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Crashpowder Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Sulphur Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Salt Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Quartz Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Uraninite Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Ruby Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Kyanite Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Nickel Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Magnetite Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Silver Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Lead Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Copper Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Lithium Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Diamond Ingot.cs" />
+    <Compile Include="Unpacked\Unpacked Gold Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked BloodOil.cs" />
+    <Compile Include="Unstacked\Unstacked Big Filtered Water.cs" />
+    <Compile Include="Unstacked\Unstacked Plasteel Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Titanium Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked GasPod.cs" />
+    <Compile Include="Unstacked\Unstacked Jelly Mushroom.cs" />
+    <Compile Include="Unstacked\Unstacked Deep Mushroom.cs" />
+    <Compile Include="Unstacked\Unstacked CreepVine Seed Cluster.cs" />
+    <Compile Include="Unstacked\Unstacked CreepVinePiece.cs" />
+    <Compile Include="Unstacked\Unstacked Table Coral.cs" />
+    <Compile Include="Unstacked\Unstacked CoralChunk.cs" />
+    <Compile Include="Unstacked\Unstacked Acid Mushroom.cs" />
+    <Compile Include="Unstacked\Unstacked Stalker Tooth Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Silicone.cs" />
+    <Compile Include="Unstacked\Unstacked Enameled Glass Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Glass Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Fibermesh.cs" />
+    <Compile Include="Unstacked\Unstacked Armidfiber.cs" />
+    <Compile Include="Unstacked\Unstacked Aerosheet.cs" />
+    <Compile Include="Unstacked\Unstacked GallonDisWater.cs" />
+    <Compile Include="Unstacked\Unstacked WaterFrom5Gallon.cs" />
+    <Compile Include="Unstacked\Unstacked Benzene Barrel.cs" />
+    <Compile Include="Unstacked\Unstacked Acid Barrel.cs" />
+    <Compile Include="Unstacked\Unstacked Polyaniline Barrel.cs" />
+    <Compile Include="Unstacked\Unstacked Lubricant Barrel.cs" />
+    <Compile Include="Unstacked\Unstacked Bleach Barrel.cs" />
+    <Compile Include="Unstacked\Unstacked Advwirekit.cs" />
+    <Compile Include="Unstacked\Unstacked Wirekit.cs" />
+    <Compile Include="Unstacked\Unstacked Computerchip.cs" />
+    <Compile Include="Unstacked\Unstacked Copperwire.cs" />
+    <Compile Include="Unstacked\Unstacked Ion Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Crashpowder Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Sulphur Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Salt Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Quartz Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Uraninite Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Ruby Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Kyanite Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Nickel Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Magnetite Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Silver Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Lead Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Copper Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Lithium Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Diamond Ingot.cs" />
+    <Compile Include="Unstacked\Unstacked Gold Ingot.cs" />
+    <Compile Include="Variables.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BepInEx.BaseLib">
+      <Version>5.4.21</Version>
+    </PackageReference>
+    <PackageReference Include="BepInEx.Core">
+      <Version>5.4.21</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies">
+      <Version>1.0.3</Version>
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Subnautica.GameLibs">
+      <Version>71288.0.0-r.0</Version>
+    </PackageReference>
+    <PackageReference Include="Subnautica.Nautilus">
+      <Version>1.0.0-pre.32</Version>
+    </PackageReference>
+    <PackageReference Include="UnityEngine.Modules">
+      <Version>2019.4.36</Version>
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\..\home\cookay\Local\HarmonyX.2.7.0\lib\net45\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\..\home\cookay\.steam\steam\steamapps\common\Subnautica\publicized_assemblies\Assembly-CSharp_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\..\..\home\cookay\.steam\steam\steamapps\common\Subnautica\publicized_assemblies\Assembly-CSharp-firstpass_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\..\..\..\..\home\cookay\.nuget\packages\bepinex.baselib\5.4.21\lib\net35\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Nautilus">
+      <HintPath>..\..\..\..\..\..\..\home\cookay\.steam\steam\steamapps\common\Subnautica\BepInEx\plugins\Nautilus\Nautilus.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\source\repos\CrashattackChallange\CrashattackChallange\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PDAssistant">
+      <HintPath>..\..\..\..\..\..\..\home\cookay\.steam\steam\steamapps\common\Subnautica\BepInEx\plugins\PDAssistant\PDAssistant.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\home\cookay\.steam\steam\steamapps\common\Subnautica\Subnautica_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>..\..\..\..\..\..\..\home\cookay\.steam\steam\steamapps\common\Subnautica\Subnautica_Data\Managed\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\Mod Sourcecode\QuittoDesktop\QuitToDesktop\bin\Debug\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\Mod Sourcecode\QuittoDesktop\QuitToDesktop\bin\Debug\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

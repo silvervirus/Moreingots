@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/cookay/windows/Backup again/Documents/Moreingots/MoreIngots/MoreIngots.csproj": {}
+  },
+  "projects": {
+    "/media/cookay/windows/Backup again/Documents/Moreingots/MoreIngots/MoreIngots.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/cookay/windows/Backup again/Documents/Moreingots/MoreIngots/MoreIngots.csproj",
+        "projectName": "MoreIngots",
+        "projectPath": "/media/cookay/windows/Backup again/Documents/Moreingots/MoreIngots/MoreIngots.csproj",
+        "packagesPath": "/home/cookay/.nuget/packages/",
+        "outputPath": "/media/cookay/windows/Backup again/Documents/Moreingots/MoreIngots/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/media/cookay/windows/Backup again/source/repos/MoreLockers/MoreDeco/nuget.config",
+          "/home/cookay/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "BepInEx.BaseLib": {
+              "target": "Package",
+              "version": "[5.4.21, )"
+            },
+            "BepInEx.Core": {
+              "target": "Package",
+              "version": "[5.4.21, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Subnautica.GameLibs": {
+              "target": "Package",
+              "version": "[71288.0.0-r.0, )"
+            },
+            "Subnautica.Nautilus": {
+              "target": "Package",
+              "version": "[1.0.0-pre.32, )"
+            },
+            "UnityEngine.Modules": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2019.4.36, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
